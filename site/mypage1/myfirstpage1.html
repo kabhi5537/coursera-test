@@ -6,25 +6,30 @@
 <title>Responsive Layout</title>
 <style>
 
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
+body {
+ background-image: url("dwp1.jpg");
 }
-h1 {
-  margin-bottom: 15px;
-  font-family: Helvetica;
-  text-align: center;
+p{
+   font-family: 'Brush Script MT', cursive;
+   font-size: 200%;
 }
-
-
-/* Simple Responsive Framework. */
+ #bottom {
+            position: absolute;
+            bottom: 0;
+            left: 350px;
+        }
   
 </style>
 </head>
 <body>
-<h1>The Wall</h1>
 
-<img src="dwp1.jpg" width="640" height="480">
+  <p align="center"> 
+  <a href="https://www.cricbuzz.com/profiles/27/rahul-dravid" 
+      target="_blank" title="Its the Legend: Deavid">His Stats here</a>
+  </p>
+  <p id="bottom" style="text-align: center;" 
+         onclick="alert('Hi ra !! Uncle');"
+> If you are Rishi click here!!</p>
 
 </body>
 </html>
